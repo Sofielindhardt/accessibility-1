@@ -4,63 +4,6 @@ Performance efter billede optimering: 100
 
 
 
-# Opgave 24 – Organisér `.marketing` med Flexbox
-
-De tre servicebokse skal stå under hinanden.
-
-Her kan `.marketing` fungere som endnu en flex-container:
-
-```css
-.marketing {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-```
-
-Strukturen bliver:
-
-```text
-.marketing
-│
-├── .services
-├── .services
-└── .services
-```
-
-Her betyder:
-
-```text
-flex-direction: column
-→ serviceboksene placeres lodret
-```
-
-## Lad serviceboksene dele pladsen
-
-I stedet for at give hver serviceboks en fast procenthøjde kan du lade Flexbox fordele den tilgængelige plads:
-
-```css
-.services {
-  flex: 1;
-}
-```
-
-Det er mere fleksibelt end eksempelvis:
-
-```css
-.services {
-  height: 32.2%;
-}
-```
-
-### Hvorfor?
-
-`flex: 1` betyder i denne sammenhæng, at de tre serviceområder får mulighed for at dele den ledige plads i `.marketing`.
-
-Det gør det lettere at få servicekolonnen til visuelt at flugte med Benefits-kolonnen uden at bruge en "magisk" procentværdi.
-
----
-
 # Opgave 25 – Brug Flexbox i `aside.benefits`
 
 Benefits-området indeholder flere elementer, der skal organiseres lodret.

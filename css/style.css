@@ -95,6 +95,7 @@ main.content {
     flex-wrap: wrap;
     align-items: stretch;
     gap: 1.2rem;
+
     width: 100%;
     padding: 0 20px;
 }
@@ -120,11 +121,17 @@ main.content > h1 {
 
 /* BENEFITS */
 
-.benefits {
+aside.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+
     margin-right: 20px;
     padding: 20px;
     width: 20%;
     height: 100%;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -132,7 +139,6 @@ main.content > h1 {
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
-    margin-bottom: 32px;
     color: #000000;
 }
 
@@ -173,6 +179,7 @@ main.content > h1 {
 .social-media-marketing {
     padding: 50px;
     min-height: 300px;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
