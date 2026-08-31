@@ -1,27 +1,4 @@
 
-
-# Opgave 5 – Skab en logisk dokumentstruktur
-
-HTML-strukturen skal give mening, også hvis CSS ikke indlæses.
-
-Prøv midlertidigt at deaktivere:
-
-```html
-<link rel="stylesheet" href="./css/style.css" />
-```
-
-Undersøg:
-
-- Kommer navigationen før hovedindholdet?
-- Er hovedindholdet samlet?
-- Er supplerende indhold placeret logisk?
-- Kommer footeren sidst?
-- Kan siden forstås uden floats og visuel positionering?
-
-> HTML-koden skal give mening uafhængigt af den visuelle styling.
-
----
-
 # Opgave 6 – Undersøg headingstrukturen
 
 Starterprojektet anvender website-navnet som `<h1>`.
