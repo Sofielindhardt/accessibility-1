@@ -9,7 +9,6 @@ body {
 }
 
 
-
 .header {
     padding: 20px;
     display: flex;
@@ -37,15 +36,11 @@ body {
     font-size: 20px;
 }
 
-
 .header nav ul {
-    list-style-type: none;
     display: flex;
     gap: 20px;
     list-style-type: none;
 }
-
-
 
 .header nav a {
     display: inline-block;
@@ -63,12 +58,15 @@ a {
     text-decoration: underline;
 }
 
+a:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
 
 
 p {
     font-size: 16px;
 }
-
 
 
 .hero {
@@ -81,31 +79,28 @@ p {
 }
 
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+main.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 1.2rem;
+    width: 100%;
+    padding: 0 20px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+main.content > h1 {
+    flex-basis: 100%;
 }
 
-
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.marketing {
+    flex: 1;
 }
-
 
 
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -136,6 +131,17 @@ p {
 }
 
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -147,7 +153,6 @@ p {
     color: #ffffff;
 }
 
-
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
@@ -156,14 +161,12 @@ p {
     height: auto;
 }
 
-
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 
 .footer {

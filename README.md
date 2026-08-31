@@ -4,83 +4,7 @@ Performance efter billede optimering: 100
 
 
 
-# Opgave 22 – Organisér hovedindholdet før du bruger Flexbox
 
-Før du skriver mere CSS, skal du forstå strukturen i hovedindholdet.
-
-Den vejledende løsning organiserer indholdet efter dette princip:
-
-```text
-main.content
-│
-├── h1
-│   └── Digital Marketing Services
-│
-├── .marketing
-│   ├── section.services
-│   │   └── Search Engine Optimization
-│   │
-│   ├── section.services
-│   │   └── Online Reputation Management
-│   │
-│   └── section.services
-│       └── Social Media Marketing
-│
-└── aside.benefits
-    ├── Lead Generation
-    ├── Brand Awareness
-    └── Cost Management
-```
-
-## Hvad viser skitsen?
-
-Skitsen viser:
-
-- at `main.content` er den overordnede container
-- at sidens `<h1>` ligger øverst
-- at `.marketing` samler de tre serviceområder
-- at `aside.benefits` er et separat område
-- at de tre serviceområder har samme rolle i layoutet
-
-`.marketing` fungerer her som en wrapper omkring de tre service-sektioner.
-
-De enkelte serviceområder kan derfor få en fælles class:
-
-```html
-<section class="search-engine-optimization services">...</section>
-```
-
-```html
-<section class="online-reputation-management services">...</section>
-```
-
-```html
-<section class="social-media-marketing services">...</section>
-```
-
-### Hvorfor en fælles `.services`-class?
-
-De tre områder har samme rolle i layoutet.
-
-Det giver mulighed for at style dem samlet i stedet for at skrive den samme layoutregel tre gange.
-
-### Tænk over strukturen før CSS
-
-Før du bruger Flexbox, skal du kunne svare på:
-
-```text
-Hvad hører sammen?
-
-Hvilke elementer skal ligge ved siden af hinanden?
-
-Hvilke elementer skal ligge under hinanden?
-
-Hvilke elementer skal være direkte children i en flex-container?
-```
-
-> Du må gerne tilføje classes eller en simpel wrapper i HTML'en, når det gør layoutet mere logisk og CSS'en lettere at vedligeholde.
-
----
 
 # Opgave 23 – Brug Flexbox på `main.content`
 
@@ -658,47 +582,7 @@ Besvar kort:
 
 ---
 
-# Useful Links / Nyttige links
 
-## Chrome DevTools
-
-https://developer.chrome.com/docs/devtools/
-
-## Lighthouse
-
-https://developer.chrome.com/docs/lighthouse/
-
-## HTML
-
-https://developer.mozilla.org/en-US/docs/Web/HTML
-
-## Web Accessibility
-
-https://www.w3.org/WAI/
-
-https://www.w3.org/WAI/tutorials/images/
-
-https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
-
-https://www.w3.org/WAI/WCAG22/Understanding/reflow.html
-
-## CSS Flexbox
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
-
-## Responsive Webdesign
-
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
-
-## WebP
-
-https://developers.google.com/speed/webp/
-
-## HTML Validation
-
-https://validator.w3.org/
-
----
 
 # Aflevering
 
@@ -718,8 +602,3 @@ Du skal kunne forklare mindst:
 - to performance-forbedringer
 - to responsive design-valg
 
----
-
-# Afsluttende note
-
-> Formålet er ikke kun at opnå høje Lighthouse-scores. Formålet er at lære at analysere eksisterende HTML og CSS, forbedre webtilgængelighed, optimere ressourcer og udvikle et robust responsive layout med begrundede tekniske valg.
