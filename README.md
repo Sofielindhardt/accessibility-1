@@ -3,48 +3,6 @@ Performance før optimering: 92
 Performance efter billede optimering: 100
 
 
-
-# Opgave 25 – Brug Flexbox i `aside.benefits`
-
-Benefits-området indeholder flere elementer, der skal organiseres lodret.
-
-Du må gerne tage udgangspunkt i:
-
-```css
-aside.benefits {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.4rem;
-}
-```
-
-Her får du et andet eksempel på Flexbox:
-
-```text
-main.content
-→ row
-
-.marketing
-→ column
-
-aside.benefits
-→ column
-```
-
-### Det vigtige er ikke at bruge Flexbox overalt
-
-Brug Flexbox, når det løser et konkret layoutproblem.
-
-Du skal kunne forklare:
-
-- hvorfor `main.content` bruger Flexbox
-- hvorfor `.marketing` bruger `column`
-- hvorfor `.services` bruger `flex: 1`
-- hvorfor `aside.benefits` bruger `column`
-
----
-
 # Opgave 26 – Tilføj ét CSS breakpoint med media query
 
 Desktop-layoutet skal nu tilpasses mindre skærme.
