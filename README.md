@@ -1,41 +1,5 @@
 
 
-# Opgave 11 – Test siden med tastatur
-
-Læg musen væk.
-
-Brug:
-
-```text
-Tab
-Shift + Tab
-Enter
-```
-
-Kontrollér:
-
-- Kan du nå alle links?
-- Kan navigationen bruges?
-- Følger fokus en logisk rækkefølge?
-- Kan du se, hvilket element der har fokus?
-
-## Korrekt princip
-
-Hvis den eksisterende fokusmarkering ikke er tydelig nok, kan du implementere en tydelig `:focus-visible`-stil.
-
-Eksempel:
-
-```css
-a:focus-visible {
-  outline: 3px solid currentColor;
-  outline-offset: 4px;
-}
-```
-
-Tilpas løsningen til designet.
-
----
-
 # Opgave 12 – Test zoom, reflow og faste højder
 
 Starterprojektet anvender blandt andet:
