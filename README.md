@@ -1,48 +1,4 @@
-# Opgave 7 – Gennemgå billedernes `alt`-attributter
 
-Starterprojektet indeholder flere billeder uden `alt`.
-
-Du skal vurdere hvert billede.
-
-## Informativt billede
-
-Hvis billedet tilfører relevant information:
-
-```html
-<img src="images/example.jpg" alt="Meningsfuld beskrivelse" />
-```
-
-## Dekorativt billede
-
-Hvis billedet kun er dekorativt:
-
-```html
-<img src="images/example.png" alt="" />
-```
-
-### Vigtig pointe
-
-```text
-Informativt billede
-→ alt="Meningsfuld beskrivelse"
-
-Dekorativt billede
-→ alt=""
-```
-
-Brug ikke `aria-label` eller `aria-labelledby` for at fortælle, at et billede er dekorativt.
-
-`aria-label` og `aria-labelledby` bruges, når et element har behov for et tilgængeligt navn.
-
-Til et dekorativt `<img>` er:
-
-```html
-alt=""
-```
-
-normalt den enkleste og korrekte løsning.
-
----
 
 # Opgave 8 – Reparér de interne anchor-links
 
