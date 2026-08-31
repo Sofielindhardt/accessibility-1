@@ -2,67 +2,6 @@ Performance start: 67
 Performance før optimering: 92
 
 
-# Opgave 16 – Konvertér relevante billeder til WebP
-
-Konvertér relevante JPG- og PNG-billeder til **WebP**.
-
-## Forkert
-
-Det er ikke nok blot at ændre:
-
-```html
-<img src="images/photo.jpg" alt="..." />
-```
-
-til:
-
-```html
-<img src="images/photo.webp" alt="..." />
-```
-
-hvis filen `photo.webp` ikke eksisterer.
-
-## Korrekt princip
-
-```text
-1. Konvertér den fysiske billedfil
-2. Kontrollér billedkvaliteten
-3. Opdatér filreferencen
-4. Test i browseren
-```
-
-## Hjælp
-
-Du kan eksempelvis bruge:
-
-- Adobe Photoshop
-- GIMP
-- XnConvert
-- et andet billedværktøj, der kan eksportere WebP
-
-Du behøver ikke bruge terminalen.
-
----
-
-# Opgave 17 – Husk hero-billedet i CSS
-
-Ikke alle billeder ligger i HTML.
-
-Starter-CSS'en indeholder:
-
-```css
-.hero {
-  background-image: url("../images/digital-marketing-meeting.jpg");
-}
-```
-
-Hvis du optimerer hero-billedet, skal denne reference også opdateres.
-
-### Kontrol
-
-Brug browserens **Network-panel** til at kontrollere, at den nye fil faktisk indlæses.
-
----
 
 # Opgave 18 – Kontrollér billedkvaliteten
 
