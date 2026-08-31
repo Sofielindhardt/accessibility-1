@@ -9,6 +9,8 @@ body {
 }
 
 
+/* HEADER */
+
 .header {
     padding: 20px;
     display: flex;
@@ -48,6 +50,8 @@ body {
 }
 
 
+/* LINKS */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -64,10 +68,14 @@ a:focus-visible {
 }
 
 
+/* TEXT */
+
 p {
     font-size: 16px;
 }
 
+
+/* HERO */
 
 .hero {
     height: 800px;
@@ -78,6 +86,8 @@ p {
     background-position: center;
 }
 
+
+/* MAIN CONTENT */
 
 main.content {
     display: flex;
@@ -93,10 +103,22 @@ main.content > h1 {
     flex-basis: 100%;
 }
 
+
+/* MARKETING */
+
 .marketing {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
     flex: 1;
 }
 
+.services {
+    flex: 1;
+}
+
+
+/* BENEFITS */
 
 .benefits {
     margin-right: 20px;
@@ -131,6 +153,8 @@ main.content > h1 {
 }
 
 
+/* SERVICE IMAGE FLOATS */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -142,10 +166,11 @@ main.content > h1 {
 }
 
 
+/* SERVICES */
+
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
-    margin-bottom: 20px;
     padding: 50px;
     min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -168,6 +193,8 @@ main.content > h1 {
     font-size: 36px;
 }
 
+
+/* FOOTER */
 
 .footer {
     padding: 30px;
