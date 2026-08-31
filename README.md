@@ -1,52 +1,5 @@
 
 
-# Opgave 9 – Undersøg om links kan identificeres visuelt
-
-Starter-CSS'en indeholder:
-
-```css
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-```
-
-Undersøg navigationen og vurder:
-
-- Er det tydeligt, at teksterne er links?
-- Er links tydelige ved hover?
-- Er links tydelige ved keyboard-fokus?
-- Er designet afhængigt af farve alene?
-
-> Det er ikke automatisk en accessibility-fejl at fjerne understregningen fra links i en tydelig navigation. Du skal vurdere linkets kontekst.
-
----
-
-# Opgave 10 – Test og forbedr farvekontrast
-
-Brug Lighthouse eller browserens accessibility-værktøjer til at undersøge kontrast.
-
-Vær især opmærksom på:
-
-```css
-color: #ffffff;
-```
-
-kombineret med blå baggrunde.
-
-## Din opgave
-
-Hvis kontrasten er utilstrækkelig, skal du ændre eksempelvis:
-
-```css
-color
-background-color
-```
-
-Forsøg at bevare Horiseons visuelle identitet.
-
----
-
 # Opgave 11 – Test siden med tastatur
 
 Læg musen væk.
