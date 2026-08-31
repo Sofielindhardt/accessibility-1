@@ -1,47 +1,5 @@
 
 
-# Opgave 8 – Reparér de interne anchor-links
-
-Navigationen anvender interne links som:
-
-```html
-<a href="#search-engine-optimization"> Search Engine Optimization </a>
-```
-
-Destinationen skal have et tilsvarende `id`.
-
-Eksempel:
-
-```html
-<section id="search-engine-optimization"></section>
-```
-
-### Din opgave
-
-Test alle tre navigationslinks.
-
-Kontrollér, at de fører til den korrekte sektion.
-
-## Gør også logoet til et link til forsiden
-
-På mange websites fungerer logoet som et link tilbage til forsiden.
-
-Gør derfor hele Horiseon-logoet klikbart og lad det føre til `index.html`.
-
-Eksempel:
-
-```html
-<p class="logo">
-  <a href="index.html"> Hori<span class="seo">seo</span>n </a>
-</p>
-```
-
-### Accessibility-pointe
-
-Der er ikke behov for at tilføje `aria-label` til dette link, når den synlige linktekst allerede giver linket et meningsfuldt navn.
-
----
-
 # Opgave 9 – Undersøg om links kan identificeres visuelt
 
 Starter-CSS'en indeholder:
